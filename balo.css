@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-top{
+    background-color: #BC000B;
+    height: 32px;
+    line-height: 32px;
+    display: flex;
+    color: #ffffff;
+}
+.phone{
+    padding-left: 80px;
+}
+.hethong{
+    padding-left: 20px;
+}
+.header-main{
+    
+     height: 60px; 
+    background-color:rgb(231, 12, 12);
+    display: flex;
+    text-align: center;
+}
+ .header-main ul li{
+    display: inline-block;
+    
+} 
+.anh{
+    margin-top: 7px;
+    margin-left: 40px;
+}
+.header-main ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 60px;
+    
+}
+.header-main ul li{
+list-style: none; 
+padding :0 30px; 
+}
+
+.header-main ul li:hover{
+background-color: #f5aea1;
+
+}
+.header-main li :hover{
+    color: #BC000B;
+     text-decoration: underline #BC000B; 
+}
+.logo{
+    margin-top: 15px;
+    color: #ffffff;
+    padding-left: 130px;
+}
+.phone i{
+    padding-right: 5px;
+}
+.hethong i{
+    padding-right: 5px;
+}
+.anh1 img {
+    width: 200px;
+    height: 250px;
+}
+.conten1{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nd1{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 80px;
+    margin-top: 25px;
+    
+}
+
+.nd1 .anh1:hover{
+     box-shadow: 0px 0px 10px rgb(172, 170, 170); 
+ 
+}
+.col{
+    display: flex;
+    margin-top: 5px;
+}
+.giá{
+     position: relative;
+   left: 38px;
+   color: #BC000B;
+}
+.giảm{
+    position: relative;
+    left: 43px;
+    top: 2px;
+    
+}
+.mua{
+    background-color: #BC000B;
+     width: 100px; 
+    padding: 5px 5px;
+    margin-left: 50px;
+     margin-top: 5px;
+    margin-bottom: 10px; 
+}
+.mua a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.anh1 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+.anh1 h4 a{
+    text-decoration: none;
+     color: black;
+
+}
+.anh1 h4 a:hover{
+    text-decoration: underline;
+}
+.box{
+    /* border-top: solid 2px rgb(236, 233, 233); */
+    margin-top: 50px;
+    display: flex;
+}
+.box1{
+    border-top: 2px solid #e7e6e6;
+    width: 490px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.box2{
+    border-top: 2px solid #e7e6e6;
+    width: 490px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.box .conten3{
+position: relative;
+bottom: 3px;
+text-align: center;
+text-transform: uppercase;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+}
+.img{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 80px;
+}
+.img img{
+    width: 230px;
+    height: 70px;
+}
+.img .img1{
+    border: 1px solid gray;
+   
+}
+.nd3{
+    background-color: #BC000B;
+    height: 73px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 250px;
+    
+}
+.nd3 .f1{
+ color: #ffffff;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.nd3 i{
+font-size: 36px;
+/* padding-right: 5px; */
+position: relative;
+top: 5px;
+right: 5px;
+border: 2px solid wheat;
+border-radius: 50%;
+padding: 10px 10px;
+}
+.f1>p{
+    position: relative;
+    bottom: 45px;
+    left: 70px;
+    font-weight: bold;
+}
+.f1 .p1{
+    position: relative;
+    left: 70px;
+    bottom: 30px; 
+}
+.footer{
+    /* height: 150px; */
+    background-color: #f5f3f3;
+    border-top: #E9252C 2px solid;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer .d1 p{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+.d2 a{
+    text-decoration: none;
+}
+.d1 .d2  p{
+    color: black;
+ padding-bottom: 15px;
+ font-size: 12px;
+ font-weight: normal;
+ text-transform: none;
+}
+.d2{
+    margin-top: 30px;
+}
+.d1 .d2 p:hover{
+    color: #BC000B;
+}
+.email{
+    margin-top: 20px;
+}
+.d1 .email p{
+  font-size: 11px; 
+  padding-bottom: 10px;
+}
+.timkiem{
+    margin-top: 10px;
+}
+.d3{
+    display: flex;
+}
+.d3 .d4{
+    font-size: 30px;
+    margin-top: 20px;
+padding-left: 20px;
+}
+.nd4{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 93px;
+    background-color: #EAECED;
+    text-align: center;
+}
+.nd4 p{
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 100px;
+}
+
+
+
+
